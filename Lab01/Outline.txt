@@ -1,9 +1,9 @@
 Place Order:
 Basic/Success Flow:
 	1. Customer check current cart then confirm order
-	2. System check if there are any unavalable product in customer's list
+	2. System check if there are any unavalable products in customer's list
 	3. System ask customer to fix number of ordered product if there are any products aren't enough
-	4. Customer is required to re-order after fixing product's number
+	4. Customer is required to re-order after change product's number
 	5. System ask customer for delivery info and delivery instructions
 	6. Customer is asked to choose delivery method (quick deleivery or standart delivery)
 	7. If quick delivery method is choosen, system check the product if they are avalable for quick delivery
