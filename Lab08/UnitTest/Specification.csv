@@ -1,0 +1,27 @@
+﻿RushOrderValidate,,,,
+#,Parameter,Conditions,Example,Result
+1,Name,"Only letters (a-z and A-Z) are allowed
+Must not null",Nguyen Van A,TRUE
+,,,Nguyen Van 9,FALSE
+2,Phone,"Only letters (a-z and A-Z) are allowed
+Must have 10-characters length
+Start with 0",123456789,TRUE
+,,,123A45,FALSE
+3,Address,"Only letters (a-z and A-Z) and numbers are allowed
+Must not null",1 Tran Dai Nghia Hanoi,TRUE
+,,,1% Tran Dai Nghia,FALSE
+4,Date,"DateTime only
+Must not null",14-02-21,TRUE
+,,,ABC,FALSE
+5,Items,Only letters and numbers are allowed,Iphone,TRUE
+,,,^*&^&,FALSE
+,,,,
+ValidateDeliveryInfo,,,,
+#,Parameter,Conditions,,
+1,Name,"Only letters (a-z and A-Z) are allowed
+Must not null",,
+2,Phone,"Only letters (a-z and A-Z) are allowed
+Must have 10-characters length
+Start with 0",,
+3,Address,"Only letters (a-z and A-Z) are allowed
+Must not null",,
